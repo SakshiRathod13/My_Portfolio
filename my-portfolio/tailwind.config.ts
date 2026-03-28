@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+// @custom-variant dark (&:where(.dark, .dark *));
 
 const svgToDataUri = require("mini-svg-data-uri");
 
@@ -8,7 +9,7 @@ const {
 } = require("tailwindcss/lib/util/flattenColorPalette");
 
 const config = {
-//   darkMode: ["class"],
+  // darkMode: ["class"],
   content: [
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
